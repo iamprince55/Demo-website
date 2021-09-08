@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #8014d8;
+
+}
+
+p{
+  font-size: 1.25rem;
+  line-height: 2;
+}
+
+h1 {
+  margin: 150px auto 2.5rem auto;
+  font-family: 'Allison', cursive;
+  font-size: 4.6875rem;
+  color: #2c786c;
+
+
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #2c786c;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+
+}
+
+.top-container {
+  background-color: #8ddff8;
+  position: relative;
+  padding-top: 100px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 100px;
+  left: 150px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 200px;
+  top: 40px;
+  padding-top: 50px;
+}
+.profile-img{
+  border-radius: 30%;
+  height: 200px;
+  width: 180px;
+}
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #e95247;
+  border-width: 5px;
+  width: 3%;
+  margin: 100px auto;
+
+}
+.skill-row{
+  width: 80%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.skill-1{
+  width: 25%;
+  float: left;
+  margin-right: 80px;
+}
+.skill-2{
+  width: 25%;
+  float: right;
+  margin-left: 80px;
+}
+.skill-3{
+  width: 25%;
+  height: 200px;
+  float: left;
+  margin-right:  80px;
+  
+}
+.skill-4{
+  width: 25%;
+  float: right;
+  margin-left: 80px;
+  
+}
+.contact-me{
+  width: 25%;
+  
+  margin: 0 80px 0 0;
+  padding-left: 450px;
+}
+.contact-me {
+	background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:22px;
+	padding:15px 30px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+  margin: 50px;
+}
+.contact-me:hover {
+    background-color:#5cbf2a;
+}
+.contact-me:active {
+    position:relative;
+    top:1px;
+}
+
+
+.intro{
+  width: 50%;
+  margin: auto;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+footer{
+  background-color: rgb(55, 208, 228);
+  padding: 50px 20px 20px;
+  
+
+}
+footer a{
+  padding: 10px;
+}
+footer a:hover{
+  color: #e95247;
+}
+.towel{
+  padding-left: 400px;
+  padding-right: 400px;
+}
